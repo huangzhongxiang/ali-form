@@ -1,7 +1,7 @@
 import {combineReducers} from 'redux'
-import Yi from './Yi'
+import Register from './Register'
 
 let reducer = combineReducers({
-    Yi
+    Register
 });
 export default reducer;

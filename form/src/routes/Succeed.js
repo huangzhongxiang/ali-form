@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class San extends React.Component {
+export default class Succeed extends React.Component {
     constructor(props){
         super(props)
     }

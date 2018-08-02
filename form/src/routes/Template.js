@@ -4,7 +4,7 @@ import { Select, Button} from 'antd';
 
 const Option = Select.Option;
 
-class Er extends React.Component {
+class Template extends React.Component {
     constructor(props,context){
         super(props,context)
     }
@@ -13,15 +13,15 @@ class Er extends React.Component {
         this.setState({
             defultPath:value
         })
-    }
+    };
 
     goback=()=>{
-        this.props.history.push('/Yi');
-    }
+        this.props.history.push('/register');
+    };
 
     go=()=>{
-        this.props.history.push('/san')
-    }
+        this.props.history.push('/succeed')
+    };
     render(){
 
 
@@ -36,4 +36,4 @@ class Er extends React.Component {
         </section>;
     }
 }
-export default connect()(Er);
+export default connect()(Template);

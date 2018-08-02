@@ -1,8 +1,8 @@
 import * as TYPES from '../action-types';
 
 
-let Yi = {
-    Yi_Yi(payload = {}) {
+let Register = {
+    userinfo(payload = {}) {
         return dispatch => {
             let {
                 name = '用户名',
@@ -20,4 +20,4 @@ let Yi = {
     },
 };
 
-export default Yi;
+export default Register;

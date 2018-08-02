@@ -1,5 +1,5 @@
-import Yi from './Yi'
+import Register from './Register'
 let action = {
-    Yi
+    Register
 };
 export default action;

@@ -9,9 +9,9 @@ import store from './store/index';
 import {LocaleProvider} from 'antd';
 import zh_CN from 'antd/lib/locale-provider/zh_CN';
 
-import Yi from './routes/Yi'
-import Er from './routes/Er'
-import San from './routes/San'
+import Register from './routes/Register'
+import Template from './routes/Template'
+import Succeed from './routes/Succeed'
 
 import './static/person.less'
 
@@ -23,10 +23,10 @@ render(<Provider store={store}>
         <LocaleProvider locale={zh_CN}>
             <div>
                 <Switch>
-                 <Route path={'/yi'} component={Yi}/>
-                 <Route path={'/er'} component={Er}/>
-                <Route path={'/san'} component={San}/>
-                <Redirect to='/Yi'/>
+                 <Route path={'/register'} component={Register}/>
+                 <Route path={'/template'} component={Template}/>
+                <Route path={'/succeed'} component={Succeed}/>
+                <Redirect to='/register'/>
                 </Switch>
             </div>
         </LocaleProvider>
